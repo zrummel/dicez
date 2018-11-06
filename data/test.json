@@ -1,0 +1,33 @@
+{
+	"characters" : [
+		{
+			"name" : "bill",
+			"class" : "warrior",
+			"stats" : {
+				"health" : 10,
+				"strength" : 8,
+				"agility" : 6,
+				"magic" : 1
+			}
+		},
+		{
+			"name" : "rosa",
+			"class" : "mage",
+			"stats" : {
+				"health" : 7,
+				"strength" : 4,
+				"agility" : 4,
+				"magic" : 9
+			}
+		}
+	],
+	"monsters" : [
+		{
+			"species" : "slime",
+			"health" : 3,
+			"strength" : 2,
+			"agility" : 4,
+			"magic" : 2
+		}
+	]
+}

@@ -18,4 +18,10 @@ $(function() {
         });
         $("#total").empty().append(total);
 	});
+
+    $("#test_json").click(function() {
+        $.getJSON('data/test.json', function(data) {
+          alert(data.characters[0].name);
+        });
+    });
 });
